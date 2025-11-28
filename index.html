@@ -1,0 +1,3117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description"
+    content="DataSpark Web - Professional Website Development, SEO Services, Google Ads Management & Web Hosting Solutions. Boost your online presence and drive business growth.">
+  <meta name="keywords"
+    content="website development, SEO services, google ads, digital marketing, web hosting, web design, e-commerce development, responsive websites">
+  <meta name="author" content="DataSpark Web">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+
+  <title>DataSpark Web - Website Development, SEO, Google Ads & Hosting</title>
+   <link rel="icon" href="assets/images/dataspark.png" type="image/png">
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- Additional CSS Files -->
+  <link rel="stylesheet" href="assets/css/fontawesome.css">
+  <link rel="stylesheet" href="assets/css/templatemo-digimedia-v1.css">
+  <link rel="stylesheet" href="assets/css/animated.css">
+  <link rel="stylesheet" href="assets/css/owl.css">
+
+  <style>
+    /* Enhanced Logo Styling */
+    .logo-container {
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+    }
+
+    .logo img {
+      height: 50px;
+      width: auto;
+      margin-right: 12px;
+      display: inline-block;
+      vertical-align: middle;
+      transition: all 0.3s ease;
+    }
+
+    .logo-name {
+      font-size: 24px;
+      font-weight: 700;
+      color: #2a2a2a;
+      letter-spacing: -0.5px;
+      white-space: nowrap;
+    }
+
+    /* Header styling for better logo display */
+    .header-area .logo {
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+    }
+
+    /* Responsive logo adjustments - FIXED: Logo text now visible on mobile */
+    @media (max-width: 992px) {
+      .logo-name {
+        font-size: 20px;
+        display: block !important;
+      }
+
+      .logo img {
+        height: 40px;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .logo-name {
+        font-size: 18px;
+        display: block !important;
+      }
+
+      .logo img {
+        height: 35px;
+        margin-right: 8px;
+      }
+    }
+
+    @media (max-width: 576px) {
+      .logo-name {
+        font-size: 16px;
+        display: block !important;
+      }
+
+      .logo img {
+        height: 35px;
+        margin-right: 8px;
+      }
+    }
+
+    /* Professional Color Scheme */
+    :root {
+      --primary-color: #2c3e50;
+      --secondary-color: #3498db;
+      --accent-color: #e74c3c;
+      --success-color: #27ae60;
+      --warning-color: #f39c12;
+      --light-color: #ecf0f1;
+      --dark-color: #2c3e50;
+      --text-color: #333;
+      --text-light: #7f8c8d;
+      --border-color: #ddd;
+    }
+
+    /* Updated existing styles with new color scheme */
+    .fourth-skill-item .progress .progress-bar {
+      border-color: var(--accent-color);
+    }
+
+    .fourth-skill-item .progress .progress-left .progress-bar {
+      animation: loading-4 1.5s linear forwards 1.8s;
+    }
+
+    .fourth-skill-item .progress .progress-value div {
+      color: var(--accent-color);
+    }
+
+    /* Enhanced DK Laptops Section Styling - Centered */
+    .dk-laptops-section {
+      padding: 100px 0;
+      background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+      position: relative;
+      overflow: hidden;
+      text-align: center;
+    }
+
+    .dk-laptops-section::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" opacity="0.03"><polygon fill="%23e74c3c" points="0,1000 1000,0 1000,1000"/></svg>');
+      background-size: cover;
+    }
+
+    .dk-laptops-section .section-heading {
+      margin-bottom: 60px;
+      position: relative;
+      z-index: 1;
+    }
+
+    .dk-service-item {
+      background: white;
+      border-radius: 15px;
+      padding: 30px;
+      margin-bottom: 30px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+      transition: all 0.4s ease;
+      position: relative;
+      overflow: hidden;
+      z-index: 1;
+      border: 1px solid rgba(44, 62, 80, 0.1);
+    }
+
+    .dk-service-item::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 5px;
+      background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
+    }
+
+    .dk-service-item:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+    }
+
+    .dk-service-icon {
+      width: 80px;
+      height: 80px;
+      background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 20px;
+      box-shadow: 0 5px 15px rgba(44, 62, 80, 0.3);
+    }
+
+    .dk-service-icon i {
+      font-size: 35px;
+      color: white;
+    }
+
+    .dk-service-item h4 {
+      font-size: 22px;
+      margin-bottom: 15px;
+      color: var(--dark-color);
+      font-weight: 600;
+    }
+
+    .dk-service-item p {
+      color: var(--text-light);
+      margin-bottom: 20px;
+      line-height: 1.6;
+    }
+
+    .dk-service-features {
+      list-style: none;
+      padding: 0;
+      margin: 0 0 20px 0;
+    }
+
+    .dk-service-features li {
+      padding: 8px 0;
+      border-bottom: 1px solid #f0f0f0;
+      color: var(--text-color);
+      position: relative;
+      padding-left: 25px;
+      transition: all 0.3s ease;
+    }
+
+    .dk-service-features li:hover {
+      color: var(--accent-color);
+      padding-left: 30px;
+    }
+
+    .dk-service-features li:before {
+      content: "\f00c";
+      font-family: "Font Awesome 6 Free";
+      font-weight: 900;
+      position: absolute;
+      left: 0;
+      color: var(--success-color);
+      transition: all 0.3s ease;
+    }
+
+    .dk-service-features li:hover:before {
+      transform: scale(1.2);
+    }
+
+    .dk-service-features li:last-child {
+      border-bottom: none;
+    }
+
+    .dk-cta-box {
+      background: linear-gradient(135deg, var(--primary-color), var(--dark-color));
+      border-radius: 15px;
+      padding: 50px;
+      color: white;
+      text-align: center;
+      margin-top: 50px;
+      position: relative;
+      overflow: hidden;
+      z-index: 1;
+    }
+
+    .dk-cta-box::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" opacity="0.05"><polygon fill="%23ffffff" points="0,0 1000,1000 0,1000"/></svg>');
+      background-size: cover;
+      z-index: -1;
+    }
+
+    .dk-cta-box h3 {
+      font-size: 32px;
+      margin-bottom: 20px;
+      font-weight: 700;
+    }
+
+    .dk-cta-box p {
+      margin-bottom: 30px;
+      font-size: 18px;
+      opacity: 0.9;
+    }
+
+    .dk-contact-info {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 30px;
+      margin-top: 30px;
+    }
+
+    .dk-contact-item {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      background: rgba(255, 255, 255, 0.1);
+      padding: 15px 20px;
+      border-radius: 10px;
+      transition: all 0.3s ease;
+    }
+
+    .dk-contact-item:hover {
+      background: rgba(255, 255, 255, 0.2);
+      transform: translateY(-5px);
+    }
+
+    .dk-contact-icon {
+      width: 50px;
+      height: 50px;
+      background: rgba(255, 255, 255, 0.15);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .dk-contact-icon i {
+      font-size: 20px;
+      color: white;
+    }
+
+    .dk-contact-text h5 {
+      margin: 0;
+      font-size: 16px;
+      font-weight: 600;
+    }
+
+    .dk-contact-text p {
+      margin: 0;
+      font-size: 14px;
+      opacity: 0.8;
+    }
+
+    /* WhatsApp Enquiry Form Styles */
+    .whatsapp-form {
+      background: white;
+      border-radius: 15px;
+      padding: 40px;
+      margin-top: 40px;
+      box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
+      border: 1px solid rgba(44, 62, 80, 0.1);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .whatsapp-form::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 5px;
+      background: linear-gradient(90deg, #25D366, #128C7E);
+    }
+
+    .whatsapp-form h4 {
+      color: var(--dark-color);
+      margin-bottom: 25px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-weight: 600;
+    }
+
+    .whatsapp-form h4 i {
+      color: #25D366;
+      font-size: 24px;
+    }
+
+    .whatsapp-form .form-group {
+      margin-bottom: 20px;
+    }
+
+    .whatsapp-form label {
+      font-weight: 500;
+      color: var(--dark-color);
+      margin-bottom: 8px;
+    }
+
+    .whatsapp-form .form-control {
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      padding: 12px 15px;
+      transition: all 0.3s ease;
+      font-size: 15px;
+    }
+
+    .whatsapp-form .form-control:focus {
+      border-color: var(--secondary-color);
+      box-shadow: 0 0 0 0.2rem rgba(52, 152, 219, 0.25);
+    }
+
+    .whatsapp-btn {
+      background: linear-gradient(135deg, #25D366, #128C7E);
+      color: white;
+      border: none;
+      border-radius: 8px;
+      padding: 14px 25px;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      transition: all 0.3s ease;
+      width: 100%;
+      font-size: 16px;
+      box-shadow: 0 5px 15px rgba(37, 211, 102, 0.3);
+    }
+
+    .whatsapp-btn:hover {
+      background: linear-gradient(135deg, #128C7E, #25D366);
+      color: white;
+      transform: translateY(-3px);
+      box-shadow: 0 8px 20px rgba(37, 211, 102, 0.4);
+    }
+
+    /* Product Categories */
+    .product-categories {
+      margin: 50px 0;
+    }
+
+    .category-item {
+      background: white;
+      border-radius: 15px;
+      padding: 30px;
+      text-align: center;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+      transition: all 0.4s ease;
+      height: 100%;
+      position: relative;
+      overflow: hidden;
+      border: 1px solid rgba(44, 62, 80, 0.1);
+    }
+
+    .category-item::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 5px;
+      background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
+    }
+
+    .category-item:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+    }
+
+    .category-icon {
+      width: 90px;
+      height: 90px;
+      background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 20px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    .category-icon i {
+      font-size: 40px;
+      color: white;
+    }
+
+    .category-item h4 {
+      font-size: 22px;
+      margin-bottom: 15px;
+      color: var(--dark-color);
+      font-weight: 600;
+    }
+
+    .category-item p {
+      color: var(--text-light);
+      margin-bottom: 20px;
+      line-height: 1.6;
+    }
+
+    /* Service Enquiry Button */
+    .service-enquiry-btn {
+      background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+      color: white;
+      border: none;
+      border-radius: 8px;
+      padding: 12px 20px;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      transition: all 0.3s ease;
+      margin-top: 15px;
+      width: 100%;
+      box-shadow: 0 5px 15px rgba(44, 62, 80, 0.3);
+    }
+
+    .service-enquiry-btn:hover {
+      background: linear-gradient(135deg, var(--secondary-color), var(--primary-color));
+      color: white;
+      transform: translateY(-3px);
+      box-shadow: 0 8px 20px rgba(44, 62, 80, 0.4);
+    }
+
+    /* Modal Popup Styles */
+    .modal-content {
+      border-radius: 15px;
+      overflow: hidden;
+      border: none;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2);
+    }
+
+    .modal-header {
+      background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+      color: white;
+      border-bottom: none;
+      padding: 20px 30px;
+    }
+
+    .modal-header h5 {
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .modal-header h5 i {
+      font-size: 24px;
+    }
+
+    .modal-body {
+      padding: 30px;
+    }
+
+    .modal-footer {
+      border-top: 1px solid #e9ecef;
+      padding: 20px 30px;
+    }
+
+    .close {
+      color: white;
+      opacity: 0.8;
+      text-shadow: none;
+    }
+
+    .close:hover {
+      color: white;
+      opacity: 1;
+    }
+
+    /* Animation for elements */
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .animated-item {
+      animation: fadeInUp 0.6s ease forwards;
+    }
+
+    /* Updated Button Styles */
+    .border-first-button a {
+      background: transparent;
+      border: 2px solid var(--primary-color);
+      color: var(--primary-color);
+      transition: all 0.3s ease;
+    }
+
+    .border-first-button a:hover {
+      background: var(--primary-color);
+      color: white;
+    }
+
+    .main-button {
+      background: var(--primary-color);
+      color: white;
+      transition: all 0.3s ease;
+    }
+
+    .main-button:hover {
+      background: var(--secondary-color);
+      color: white;
+    }
+
+    /* Updated Pre-header - Fixed Mobile Responsiveness */
+    .pre-header {
+      background: var(--primary-color);
+      color: white;
+      padding: 8px 0;
+    }
+
+    .pre-header .info,
+    .pre-header .social-media {
+      display: flex;
+      align-items: center;
+    }
+
+    .pre-header .info a,
+    .pre-header .social-media a {
+      color: white;
+      text-decoration: none;
+    }
+
+    .pre-header .social-media a:hover {
+      color: var(--light-color);
+    }
+
+    .pre-header .social-media {
+      justify-content: flex-end;
+    }
+
+    /* Updated Header - Fixed Mobile Responsiveness */
+    .header-area.header-sticky {
+      background: white;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .header-area .nav li a {
+      color: var(--dark-color);
+    }
+
+    .header-area .nav li a:hover,
+    .header-area .nav li a.active {
+      color: var(--secondary-color);
+    }
+
+
+
+    /* Updated Main Banner */
+    .main-banner {
+      background: linear-gradient(135deg, var(--light-color) 0%, white 100%);
+    }
+
+    /* Updated About Section */
+    .about {
+      background: white;
+    }
+
+    /* Updated Services Section - Fixed Hover Colors and Mobile Display */
+    .services {
+      background: var(--light-color);
+    }
+
+    .naccs .menu .thumb {
+      background: white;
+      color: var(--dark-color);
+      border: 1px solid var(--border-color);
+      transition: all 0.3s ease;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 15px 10px;
+      min-height: 120px;
+    }
+
+    .naccs .menu .thumb.active,
+    .naccs .menu .thumb:hover {
+      background: var(--primary-color);
+      color: white;
+    }
+
+    .naccs .menu .thumb.active .icon,
+    .naccs .menu .thumb:hover .icon {
+      filter: brightness(0) invert(1);
+    }
+
+    /* Service name styling for mobile - FIXED: Service names now visible in 2 lines */
+    .naccs .menu .thumb .service-name {
+      font-size: 14px;
+      font-weight: 500;
+      margin-top: 8px;
+      line-height: 1.2;
+      display: block;
+      width: 100%;
+      height: 34px;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    /* Updated Portfolio Section - Centered */
+    .our-portfolio {
+      background: white;
+      text-align: center;
+    }
+
+    .our-portfolio .section-heading {
+      text-align: center;
+      width: 100%;
+    }
+
+    /* Updated Blog Section */
+    .blog {
+      background: var(--light-color);
+    }
+
+    /* Updated Contact Section - FIXED: Email box overflow */
+    .contact-us {
+      background: white;
+    }
+
+    /* Updated Footer */
+    footer {
+      background: var(--primary-color);
+      color: white;
+    }
+
+    /* FIXED: Services section mobile view - Service names now visible */
+    @media (max-width: 768px) {
+      .naccs .menu {
+        flex-direction: column;
+        width: 100%;
+      }
+
+      .naccs .menu .thumb {
+        width: 100%;
+        margin-bottom: 10px;
+        text-align: center;
+        padding: 15px;
+        flex-direction: row;
+        justify-content: flex-start;
+        min-height: auto;
+      }
+
+      .naccs .menu .thumb .icon {
+        margin-right: 10px;
+        flex-shrink: 0;
+      }
+
+      .naccs .menu .thumb .service-name {
+        font-size: 16px;
+        text-align: left;
+        margin-top: 0;
+        height: auto;
+        -webkit-line-clamp: 2;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+      }
+
+      .naccs .grid .row {
+        margin: 0;
+      }
+
+      .naccs .nacc {
+        margin-top: 20px;
+      }
+
+      .naccs .nacc .thumb .row {
+        flex-direction: column;
+      }
+
+      .naccs .nacc .thumb .left-text,
+      .naccs .nacc .thumb .right-image {
+        width: 100%;
+      }
+
+      .naccs .nacc .thumb .right-image {
+        margin-top: 20px;
+      }
+
+      /* Fix for services tab display on mobile */
+      .naccs .nacc .thumb .left-text h4 {
+        font-size: 20px;
+      }
+
+      .naccs .nacc .thumb .left-text p {
+        font-size: 14px;
+      }
+
+      .ticks-list span {
+        font-size: 13px;
+      }
+    }
+
+    /* FIXED: Section heading underline alignment */
+    .section-heading {
+      text-align: center;
+      width: 100%;
+    }
+
+    .line-dec {
+      width: 80px;
+      height: 3px;
+      background-color: var(--primary-color);
+      margin: 15px auto 30px;
+      display: block;
+    }
+
+    /* Responsive adjustments for DK Laptops section */
+    @media (max-width: 768px) {
+      .dk-laptops-section {
+        padding: 60px 0;
+      }
+
+      .dk-service-item,
+      .category-item {
+        padding: 20px;
+      }
+
+      .dk-cta-box {
+        padding: 30px 20px;
+      }
+
+      .dk-contact-info {
+        gap: 15px;
+      }
+
+      .dk-contact-item {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+        padding: 15px;
+      }
+
+      .whatsapp-form {
+        padding: 25px;
+      }
+    }
+
+    /* General Mobile Responsiveness - FIXED: Logo position and contact email overflow */
+    @media (max-width: 768px) {
+      .main-banner .left-content h2 {
+        font-size: 28px;
+      }
+
+      .section-heading h4 {
+        font-size: 24px;
+      }
+
+      .skill-item {
+        margin-bottom: 20px;
+      }
+
+      .portfolio-item {
+        margin-bottom: 20px;
+      }
+
+      .blog-post,
+      .post-item {
+        margin-bottom: 30px;
+      }
+
+      .contact-dec {
+        display: none;
+      }
+
+      .fill-form {
+        padding-top: 30px;
+      }
+
+      /* Mobile Preheader Fix - FIXED: Phone number now visible */
+      .pre-header .row {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .pre-header .info,
+      .pre-header .social-media {
+        justify-content: center;
+        margin: 5px 0;
+        flex-wrap: wrap;
+      }
+
+      .pre-header .info li,
+      .pre-header .social-media li {
+        margin: 0 8px;
+      }
+
+     
+
+      /* FIXED: Contact section email overflow */
+      .contact-us .info-post .icon a {
+        font-size: 14px;
+        word-break: break-all;
+        display: inline-block;
+        max-width: 100%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+
+      .contact-us .fill-form .info-post {
+        margin-bottom: 15px;
+      }
+
+      .contact-us .fill-form .row .col-lg-4 {
+        margin-bottom: 10px;
+      }
+    }
+
+    @media (max-width: 576px) {
+
+      .pre-header .info,
+      .pre-header .social-media {
+        text-align: center;
+        justify-content: center;
+      }
+
+      .pre-header .row>div {
+        margin-bottom: 10px;
+      }
+
+      .main-banner .left-content h2 {
+        font-size: 24px;
+      }
+
+      .section-heading h4 {
+        font-size: 22px;
+      }
+
+      .dk-cta-box h3 {
+        font-size: 24px;
+      }
+
+      .logo-name {
+        font-size: 16px;
+      }
+
+      /* Additional fixes for contact section on very small screens */
+      .contact-us .fill-form fieldset input,
+      .contact-us .fill-form fieldset textarea {
+        font-size: 14px;
+      }
+
+      .contact-us .info-post .icon img {
+        width: 20px;
+        height: 20px;
+      }
+
+      /* Service names in two lines for mobile */
+      .naccs .menu .thumb .service-name {
+        font-size: 14px;
+        height: 38px;
+        -webkit-line-clamp: 2;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .pre-header .info {
+        flex-direction: column;
+      }
+
+      .pre-header .info li {
+        margin: 3px 0;
+      }
+
+      .logo-name {
+        font-size: 14px;
+      }
+
+      /* Final fixes for contact section on smallest screens */
+      .contact-us .info-post .icon {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .contact-us .info-post .icon a {
+        margin-top: 5px;
+      }
+
+      /* Service names in two lines for very small screens */
+      .naccs .menu .thumb {
+        padding: 12px 8px;
+      }
+
+      .naccs .menu .thumb .service-name {
+        font-size: 13px;
+        line-height: 1.3;
+        height: 34px;
+        -webkit-line-clamp: 2;
+      }
+    }
+
+    /* FIXED: Portfolio image boxes same size */
+    .portfolio-item .thumb {
+      height: 250px;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .portfolio-item .thumb img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.3s ease;
+    }
+
+    .portfolio-item:hover .thumb img {
+      transform: scale(1.05);
+    }
+
+    /* FIXED: Contact section email display in desktop view */
+    .contact-us .info-post .icon {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .contact-us .info-post .icon a {
+      word-break: break-word;
+      overflow-wrap: break-word;
+      max-width: 100%;
+    }
+
+  .contact-cards {
+      margin-bottom: 50px;
+    }
+
+    .contact-card {
+      background: white;
+      border-radius: 15px;
+      padding: 30px;
+      text-align: center;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+      transition: all 0.4s ease;
+      height: 100%;
+      border: 1px solid rgba(44, 62, 80, 0.1);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .contact-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 5px;
+      background: linear-gradient(90deg, #2c3e50, #3498db);
+    }
+
+    .contact-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+    }
+
+    .contact-icon {
+      width: 80px;
+      height: 80px;
+      background: linear-gradient(135deg, #2c3e50, #3498db);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 20px;
+      box-shadow: 0 5px 15px rgba(44, 62, 80, 0.3);
+    }
+
+    .contact-icon i {
+      font-size: 30px;
+      color: white;
+    }
+
+    .contact-card h5 {
+      font-size: 20px;
+      margin-bottom: 15px;
+      color: #2c3e50;
+      font-weight: 600;
+    }
+
+    .contact-card p {
+      color: #7f8c8d;
+      margin-bottom: 10px;
+    }
+
+    .contact-card a {
+      color: #3498db;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    .contact-card a:hover {
+      color: #2c3e50;
+    }
+
+    .contact-form-container {
+      background: white;
+      border-radius: 15px;
+      padding: 40px;
+      box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
+      border: 1px solid rgba(44, 62, 80, 0.1);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .contact-form-container::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 5px;
+      background: linear-gradient(90deg, #2c3e50, #3498db);
+    }
+
+    .contact-form-container h4 {
+      color: #2c3e50;
+      margin-bottom: 25px;
+      text-align: center;
+      font-weight: 600;
+    }
+
+    /* Enhanced Footer Styles */
+    footer {
+      background: linear-gradient(135deg, #2c3e50 0%, #1a252f 100%);
+      color: white;
+      padding: 70px 0 20px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    footer::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" opacity="0.03"><polygon fill="%23ffffff" points="0,0 1000,1000 0,1000"/></svg>');
+      background-size: cover;
+    }
+
+    .footer-content {
+      position: relative;
+      z-index: 1;
+    }
+
+    .footer-logo {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    .footer-logo img {
+      height: 50px;
+      width: auto;
+      margin-right: 12px;
+    }
+
+    .footer-logo-text {
+      font-size: 24px;
+      font-weight: 700;
+      color: white;
+      letter-spacing: -0.5px;
+    }
+
+    .footer-about {
+      margin-bottom: 30px;
+    }
+
+    .footer-about p {
+      color: #bdc3c7;
+      line-height: 1.6;
+    }
+
+    .footer-heading {
+      font-size: 18px;
+      font-weight: 600;
+      margin-bottom: 20px;
+      color: white;
+      position: relative;
+      padding-bottom: 10px;
+    }
+
+    .footer-heading::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 40px;
+      height: 2px;
+      background: #3498db;
+    }
+
+    .footer-links {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .footer-links li {
+      margin-bottom: 10px;
+    }
+
+    .footer-links a {
+      color: #bdc3c7;
+      text-decoration: none;
+      transition: all 0.3s ease;
+      display: flex;
+      align-items: center;
+    }
+
+    .footer-links a i {
+      margin-right: 8px;
+      font-size: 14px;
+      width: 20px;
+    }
+
+    .footer-links a:hover {
+      color: #3498db;
+      padding-left: 5px;
+    }
+
+    .footer-contact {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .footer-contact li {
+      margin-bottom: 15px;
+      display: flex;
+      align-items: flex-start;
+    }
+
+    .footer-contact i {
+      margin-right: 10px;
+      color: #3498db;
+      font-size: 16px;
+      margin-top: 3px;
+      width: 20px;
+    }
+
+    .footer-contact div {
+      color: #bdc3c7;
+    }
+
+    .footer-contact strong {
+      display: block;
+      color: white;
+      font-size: 14px;
+    }
+
+    .footer-contact a {
+      color: #bdc3c7;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    .footer-contact a:hover {
+      color: #3498db;
+    }
+
+    .footer-bottom {
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+      padding-top: 20px;
+      margin-top: 40px;
+      text-align: center;
+    }
+
+    .footer-bottom p {
+      margin: 0;
+      color: #bdc3c7;
+    }
+
+    .social-links {
+      display: flex;
+      gap: 15px;
+      margin-top: 20px;
+    }
+
+    .social-links a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 40px;
+      height: 40px;
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 50%;
+      color: white;
+      transition: all 0.3s ease;
+    }
+
+    .social-links a:hover {
+      background: #3498db;
+      transform: translateY(-3px);
+    }
+
+
+    .skill-item {
+  text-align: center;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skill-name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  background: #f5f5f5;
+  border-radius: 10px;
+  font-weight: 600;
+  color: #2a2a2a;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+  width: 160px;
+  height: 65px;
+  text-align: center;
+  box-sizing: border-box;
+  line-height: 1.3;
+  word-wrap: break-word;
+}
+
+.skill-name:hover {
+  background: #4da6e7;
+  color: white;
+  transform: translateY(-5px);
+}
+
+/* Mobile View */
+@media (max-width: 768px) {
+  .row .col-lg-3 {
+    flex: 0 0 50%;
+    max-width: 50%;
+    margin-bottom: 15px;
+  }
+  
+  .skill-name {
+    width: 140px;
+    height: 55px;
+    padding: 12px;
+    font-size: 14px;
+  }
+}
+
+/* Small Mobile View */
+@media (max-width: 480px) {
+  .row .col-lg-3 {
+    flex: 0 0 50%;
+    max-width: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .skill-name {
+    width: 130px;
+    height: 50px;
+    padding: 10px;
+    font-size: 13px;
+  }
+}
+     :root {
+            --primary-color: #4a6ee0;
+            --secondary-color: #6c63ff;
+            --accent-color: #ff6b6b;
+            --dark-color: #2d3748;
+            --light-color: #f8f9fa;
+            --text-color: #4a5568;
+            --border-radius: 12px;
+            --box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+            --transition: all 0.3s ease;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: var(--text-color);
+            line-height: 1.6;
+        }
+
+        .services-section {
+            padding: 80px 0;
+            background: linear-gradient(135deg, #f5f7ff 0%, #f0f4ff 100%);
+        }
+
+        .section-heading {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        .section-heading h6 {
+            color: var(--primary-color);
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 15px;
+        }
+
+        .section-heading h4 {
+            font-weight: 700;
+            color: var(--dark-color);
+            margin-bottom: 20px;
+            font-size: 2.2rem;
+        }
+
+        .section-heading h4 em {
+            color: var(--secondary-color);
+            font-style: normal;
+        }
+
+        .line-dec {
+            width: 60px;
+            height: 4px;
+            background: linear-gradient(to right, var(--primary-color), var(--secondary-color));
+            margin: 0 auto;
+            border-radius: 2px;
+        }
+
+        /* Horizontal Menu Styling */
+        .services-menu {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 50px;
+            overflow-x: auto;
+            padding-bottom: 10px;
+            scrollbar-width: thin;
+            scrollbar-color: var(--primary-color) #f1f1f1;
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+
+        .services-menu::-webkit-scrollbar {
+            display: none;
+        }
+
+        .service-tab {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 15px 20px;
+            margin: 0 5px;
+            border-radius: var(--border-radius);
+            background: white;
+            box-shadow: var(--box-shadow);
+            transition: var(--transition);
+            cursor: pointer;
+            border: 1px solid rgba(0, 0, 0, 0.05);
+            min-width: 120px;
+            text-align: center;
+            white-space: nowrap;
+            flex-shrink: 0;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .service-tab::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            transition: var(--transition);
+            z-index: 0;
+        }
+
+        .service-tab:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.12);
+        }
+
+        .service-tab.active {
+            color: white;
+            transform: translateY(-5px);
+        }
+
+        .service-tab.active::before {
+            left: 0;
+        }
+
+        .service-tab.active .service-icon,
+        .service-tab.active .service-name {
+            color: white;
+            position: relative;
+            z-index: 1;
+        }
+
+        .service-icon {
+            font-size: 1.8rem;
+            color: var(--primary-color);
+            margin-bottom: 10px;
+            transition: var(--transition);
+            position: relative;
+            z-index: 1;
+        }
+
+        .service-name {
+            font-weight: 600;
+            font-size: 0.9rem;
+            color: var(--dark-color);
+            transition: var(--transition);
+            position: relative;
+            z-index: 1;
+        }
+
+        /* Service Details Styling */
+        .service-details {
+            background: white;
+            border-radius: var(--border-radius);
+            padding: 40px 30px;
+            box-shadow: var(--box-shadow);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .service-content {
+            display: none;
+            opacity: 0;
+            transform: translateY(20px);
+            transition: all 0.5s ease;
+        }
+
+        .service-content.active {
+            display: block;
+            opacity: 1;
+            transform: translateY(0);
+            animation: slideInUp 0.5s ease forwards;
+        }
+
+        @keyframes slideInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        .service-details h4 {
+            font-weight: 700;
+            color: var(--dark-color);
+            margin-bottom: 20px;
+            font-size: 1.8rem;
+            position: relative;
+        }
+
+        .service-details h4::after {
+            content: '';
+            position: absolute;
+            bottom: -8px;
+            left: 0;
+            width: 50px;
+            height: 3px;
+            background: linear-gradient(to right, var(--primary-color), var(--secondary-color));
+            border-radius: 2px;
+        }
+
+        .service-details p {
+            margin-bottom: 25px;
+            color: var(--text-color);
+        }
+
+        .features-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+            margin-bottom: 25px;
+        }
+
+        .feature-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+            padding: 8px 12px;
+            border-radius: 8px;
+            background: rgba(108, 99, 255, 0.05);
+            transition: var(--transition);
+        }
+
+        .feature-item:hover {
+            background: rgba(108, 99, 255, 0.1);
+            transform: translateX(5px);
+        }
+
+        .feature-item i {
+            color: var(--secondary-color);
+            margin-right: 10px;
+            font-size: 1.1rem;
+        }
+
+        .service-image {
+            border-radius: var(--border-radius);
+            overflow: hidden;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+            margin-top: 30px;
+            position: relative;
+        }
+
+        .service-image::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, rgba(74, 110, 224, 0.1), rgba(108, 99, 255, 0.1));
+            z-index: 1;
+            opacity: 0;
+            transition: var(--transition);
+        }
+
+        .service-image:hover::before {
+            opacity: 1;
+        }
+
+        .service-image img {
+            width: 100%;
+            height: auto;
+            transition: var(--transition);
+        }
+
+        .service-image:hover img {
+            transform: scale(1.05);
+        }
+
+        /* Mobile-specific adjustments */
+        @media (max-width: 1200px) {
+            .service-tab {
+                min-width: 110px;
+                padding: 12px 15px;
+            }
+            
+            .service-icon {
+                font-size: 1.6rem;
+            }
+            
+            .service-name {
+                font-size: 0.85rem;
+            }
+        }
+
+        @media (max-width: 992px) {
+            .services-menu {
+                justify-content: flex-start;
+            }
+            
+            .service-tab {
+                min-width: 105px;
+                padding: 12px 10px;
+            }
+            
+            .service-icon {
+                font-size: 1.5rem;
+            }
+            
+            .service-name {
+                font-size: 0.8rem;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .services-section {
+                padding: 50px 0;
+            }
+            
+            .section-heading h4 {
+                font-size: 1.8rem;
+            }
+            
+            .service-details {
+                padding: 30px 20px;
+            }
+            
+            .features-list {
+                grid-template-columns: 1fr;
+            }
+            
+            .service-tab {
+                min-width: 95px;
+                padding: 10px 8px;
+            }
+            
+            .service-icon {
+                font-size: 1.4rem;
+            }
+            
+            .service-name {
+                font-size: 0.75rem;
+            }
+        }
+
+        @media (max-width: 576px) {
+            .service-tab {
+                min-width: 90px;
+                padding: 8px 6px;
+                margin: 0 3px;
+            }
+            
+            .service-icon {
+                font-size: 1.3rem;
+                margin-bottom: 8px;
+            }
+            
+            .service-name {
+                font-size: 0.7rem;
+                line-height: 1.2;
+            }
+            
+            .service-details {
+                padding: 25px 15px;
+            }
+            
+            .service-details h4 {
+                font-size: 1.5rem;
+            }
+        }
+
+        @media (max-width: 400px) {
+            .service-tab {
+                min-width: 85px;
+                padding: 7px 5px;
+            }
+            
+            .service-icon {
+                font-size: 1.2rem;
+            }
+            
+            .service-name {
+                font-size: 0.65rem;
+            }
+        }
+
+        /* Animation for tab switching */
+        .service-tab {
+            transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+        }
+
+        .service-tab.active {
+            animation: pulse 0.5s ease;
+        }
+
+        @keyframes pulse {
+            0% {
+                transform: translateY(-5px) scale(1);
+            }
+            50% {
+                transform: translateY(-5px) scale(1.05);
+            }
+            100% {
+                transform: translateY(-5px) scale(1);
+            }
+        }
+ 
+  </style>
+
+</head>
+
+<body>
+
+  <!-- ***** Preloader Start ***** -->
+  <div id="js-preloader" class="js-preloader">
+    <div class="preloader-inner">
+      <span class="dot"></span>
+      <div class="dots">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </div>
+  <!-- ***** Preloader End ***** -->
+
+  <!-- Pre-header Starts - Fixed Mobile Responsiveness -->
+  <div class="pre-header">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-8 col-md-7 col-sm-12">
+          <ul class="info">
+            <li><a href="mailto:datasparkweb27@gmail.com"><i class="fa fa-envelope"></i>datasparkweb27@gmail.com</a>
+            </li>
+            <li><a href="tel:+919022608002"><i class="fa fa-phone"></i>+91 9022608002</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-4 col-md-5 col-sm-12">
+          <ul class="social-media">
+            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Pre-header End -->
+
+  <!-- ***** Header Area Start - Fixed Mobile Responsiveness ***** -->
+  <header class="header-area header-sticky wow slideInDown" data-wow-duration="0.75s" data-wow-delay="0s">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <nav class="main-nav">
+            <!-- ***** Logo Start - FIXED: Logo position maintained ***** -->
+            <a href="index.html" class="logo">
+              <div class="logo-container">
+                <img src="assets/images/dataspark.png" alt="DataSpark Web Logo">
+                <span class="logo-name">DataSpark Web</span>
+              </div>
+            </a>
+            <!-- ***** Logo End ***** -->
+            <!-- ***** Menu Start ***** -->
+            <ul class="nav">
+              <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
+              <li class="scroll-to-section"><a href="#about">About</a></li>
+              <li class="scroll-to-section"><a href="#services">Services</a></li>
+              <li class="scroll-to-section"><a href="#dk-laptops">DK Laptops</a></li>
+              <li class="scroll-to-section"><a href="#portfolio">Projects</a></li>
+              <!-- <li class="scroll-to-section"><a href="#blog">Blog</a></li> -->
+              <li class="scroll-to-section"><a href="#contact">Contact</a></li>
+              <li class="scroll-to-section">
+                <div class="border-first-button"><a href="#contact">Free Quote</a></div>
+              </li>
+            </ul>
+            <a class='menu-trigger'>
+              <span>Menu</span>
+            </a>
+            <!-- ***** Menu End ***** -->
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- ***** Header Area End ***** -->
+
+  <div class="main-banner wow fadeIn" id="top" data-wow-duration="1s" data-wow-delay="0.5s">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="row">
+            <div class="col-lg-6 align-self-center">
+              <div class="left-content show-up header-text wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
+                <div class="row">
+                  <div class="col-lg-12">
+                    <h6>Professional Website Development, SEO & Google Ads</h6>
+                    <h2>Complete Digital Solutions for Your Business</h2>
+                    <p>DataSpark Web provides end-to-end digital solutions including website development, SEO
+                      optimization, Google Ads management, and reliable web hosting services. We help businesses
+                      establish and grow their online presence with cutting-edge technology and proven marketing
+                      strategies.</p>
+                  </div>
+                  <div class="col-lg-12">
+                    <div class="border-first-button scroll-to-section">
+                      <a href="#contact">Get Free Consultation</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="right-image wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
+                <img src="assets/images/slider-dec.png" alt="Website Development and Digital Marketing Services">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="about" class="about section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="about-left-image  wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
+                <img src="assets/images/about-dec.png" alt="About DataSpark Web - Digital Agency">
+              </div>
+            </div>
+            <div class="col-lg-6 align-self-center  wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
+              <div class="about-right-content">
+                <div class="section-heading">
+                  <h6>About Us</h6>
+                  <h4>Who is <em>DataSpark Web</em></h4>
+                  <div class="line-dec"></div>
+                </div>
+                <p>DataSpark Web is a full-service digital agency specializing in website development, SEO optimization,
+                  Google Ads management, and web hosting solutions. With years of industry experience, we help
+                  businesses of all sizes establish and grow their online presence through cutting-edge web technologies
+                  and proven marketing strategies.</p>
+                <p>Our team of skilled developers, designers, SEO experts, and digital marketing specialists work
+                  collaboratively to deliver comprehensive solutions that drive real business results and maximize your
+                  return on investment.</p>
+                <div class="row">
+                  <div class="col-lg-3 col-sm-3">
+                    <div class="skill-item first-skill-item wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
+                      <div class="skill-name">
+                        <span>Web Development</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-sm-3">
+                    <div class="skill-item second-skill-item wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
+                      <div class="skill-name">
+                        <span>SEO Optimization</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-sm-3">
+                    <div class="skill-item third-skill-item wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
+                      <div class="skill-name">
+                        <span>Digital Marketing</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-sm-3">
+                    <div class="skill-item fourth-skill-item wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
+                      <div class="skill-name">
+                        <span>Google Ads</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+    <section class="services-section" id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-heading">
+                        <h6>Our Services</h6>
+                        <h4>What Our Agency <em>Provides</em></h4>
+                        <div class="line-dec"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Horizontal Service Menu -->
+            <div class="services-menu">
+                <div class="service-tab active" data-service="web-development">
+                    <div class="service-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="service-name">Web Development</div>
+                </div>
+                
+                <div class="service-tab" data-service="seo">
+                    <div class="service-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <div class="service-name">SEO</div>
+                </div>
+                
+                <div class="service-tab" data-service="google-ads">
+                    <div class="service-icon">
+                        <i class="fab fa-google"></i>
+                    </div>
+                    <div class="service-name">Google Ads</div>
+                </div>
+                
+                <div class="service-tab" data-service="digital-marketing">
+                    <div class="service-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <div class="service-name">Digital Marketing</div>
+                </div>
+                
+                <div class="service-tab" data-service="web-hosting">
+                    <div class="service-icon">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <div class="service-name">Web Hosting</div>
+                </div>
+                
+                <div class="service-tab" data-service="maintenance">
+                    <div class="service-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <div class="service-name">Maintenance</div>
+                </div>
+            </div>
+            
+            <!-- Service Details -->
+            <div class="service-details">
+                <!-- Web Development -->
+                <div class="service-content active" id="web-development">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <h4>Custom Website Development</h4>
+                            <p>We build responsive, user-friendly websites tailored to your business needs. Our development process focuses on creating fast, secure, and scalable websites that provide exceptional user experiences across all devices and platforms.</p>
+                            
+                            <div class="features-list">
+                                <div class="feature-item">
+                                    <i class="fa fa-check"></i>
+                                    <span>Responsive Design</span>
+                                </div>
+                                <div class="feature-item">
+                                    <i class="fa fa-check"></i>
+                                    <span>Fast Loading Speed</span>
+                                </div>
+                                <div class="feature-item">
+                                    <i class="fa fa-check"></i>
+                                    <span>SEO-Friendly Structure</span>
+                                </div>
+                                <div class="feature-item">
+                                    <i class="fa fa-check"></i>
+                                    <span>Cross-Browser Compatible</span>
+                                </div>
+                                <div class="feature-item">
+                                    <i class="fa fa-check"></i>
+                                    <span>Security Optimized</span>
+                                </div>
+                                <div class="feature-item">
+                                    <i class="fa fa-check"></i>
+                                    <span>Mobile-First Approach</span>
+                                </div>
+                            </div>
+                            
+                            <p>Our websites are built with clean code and modern frameworks to ensure optimal performance, security, and future scalability for your business growth.</p>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="service-image">
+                                <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Custom Website Development Services">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- SEO -->
+                <div class="service-content" id="seo">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <h4>SEO & Search Engine Optimization</h4>
+                            <p>Improve your website's visibility in search results with our comprehensive SEO services. We implement proven strategies to increase organic traffic, enhance your online presence, and drive qualified leads to your business.</p>
+                            
+                            <div class="features-list">
+                                <div class="feature-item">
+                                    <i class="fa fa-check"></i>
+                                    <span>Comprehensive Keyword Research</span>
+                                </div>
+                                <div class="feature-item">
+                                    <i class="fa fa-check"></i>
+                                    <span>On-Page Optimization</span>
+                                </div>
+                                <div class="feature-item">
+                                    <i class="fa fa-check"></i>
+                                    <span>Technical SEO Audit</span>
+                                </div>
+                                <div class="feature-item">
+                                    <i class="fa fa-check"></i>
+                                    <span>Content Strategy Development</span>
+                                </div>
+                                <div class="feature-item">
+                                    <i class="fa fa-check"></i>
+                                    <span>Quality Link Building</span>
+                                </div>
+                                <div class="feature-item">
+                                    <i class="fa fa-check"></i>
+                                    <span>Performance Tracking & Reporting</span>
+                                </div>
+                            </div>
+                            
+                            <p>Our data-driven approach ensures your website ranks higher for relevant search terms, driving sustainable organic growth and maximizing your online visibility.</p>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="service-image">
+                                <img src="https://images.unsplash.com/photo-1607799279861-4dd421887fb3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="SEO and Search Engine Optimization Services">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Google Ads -->
+                <div class="service-content" id="google-ads">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <h4>Google Ads Management</h4>
+                            <p>Create effective Google Ads campaigns that generate quality leads for your business. Our Google Ads experts design ROI-focused campaigns that target your ideal customers and maximize your advertising budget.</p>
+                            
+                            <div class="features-list">
+                                <div class="feature-item">
+                                    <i class="fa fa-check"></i>
+                                    <span>Complete Google Ads Account Setup</span>
+                                </div>
+                                <div class="feature-item">
+                                    <i class="fa fa-check"></i>
+                                    <span>Strategic Keyword Research</span>
+                                </div>
+                                <div class="feature-item">
+                                    <i class="fa fa-check"></i>
+                                    <span>Campaign Optimization & Management</span>
+                                </div>
+                                <div class="feature-item">
+                                    <i class="fa fa-check"></i>
+                                    <span>Conversion Tracking Implementation</span>
+                                </div>
+                                <div class="feature-item">
+                                    <i class="fa fa-check"></i>
+                                    <span>A/B Testing & Performance Analysis</span>
+                                </div>
+                                <div class="feature-item">
+                                    <i class="fa fa-check"></i>
+                                    <span>Detailed Performance Reporting</span>
+                                </div>
+                            </div>
+                            
+                            <p>We provide complete management of your Google Ads account, allowing you to focus on your core business while we handle your digital advertising strategy.</p>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="service-image">
+                                <img src="https://images.unsplash.com/photo-1563986768609-322da13575f3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Google Ads Management Services">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Digital Marketing -->
+                <div class="service-content" id="digital-marketing">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <h4>Digital Marketing Services</h4>
+                            <p>Expand your reach and connect with your target audience through our comprehensive digital marketing strategies. We help businesses increase brand awareness, engage with customers, and generate qualified leads across multiple channels.</p>
+                            
+                            <div class="features-list">
+                                <div class="feature-item">
+                                    <i class="fa fa-check"></i>
+                                    <span>Social Media Marketing</span>
+                                </div>
+                                <div class="feature-item">
+                                    <i class="fa fa-check"></i>
+                                    <span>Content Marketing Strategy</span>
+                                </div>
+                                <div class="feature-item">
+                                    <i class="fa fa-check"></i>
+                                    <span>PPC Advertising</span>
+                                </div>
+                                <div class="feature-item">
+                                    <i class="fa fa-check"></i>
+                                    <span>Email Marketing Campaigns</span>
+                                </div>
+                                <div class="feature-item">
+                                    <i class="fa fa-check"></i>
+                                    <span>Analytics & Performance Reporting</span>
+                                </div>
+                                <div class="feature-item">
+                                    <i class="fa fa-check"></i>
+                                    <span>Conversion Rate Optimization</span>
+                                </div>
+                            </div>
+                            
+                            <p>Our data-driven marketing approaches deliver measurable results and maximize your return on investment across all digital channels.</p>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="service-image">
+                                <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Digital Marketing Services">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Web Hosting -->
+                <div class="service-content" id="web-hosting">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <h4>Web Hosting Solutions</h4>
+                            <p>Fast, secure, and reliable web hosting services for businesses of all sizes. We offer various hosting solutions tailored to your website's specific requirements, ensuring optimal performance and maximum uptime.</p>
+                            
+                            <div class="features-list">
+                                <div class="feature-item">
+                                    <i class="fa fa-check"></i>
+                                    <span>Shared Hosting Plans</span>
+                                </div>
+                                <div class="feature-item">
+                                    <i class="fa fa-check"></i>
+                                    <span>VPS Hosting Solutions</span>
+                                </div>
+                                <div class="feature-item">
+                                    <i class="fa fa-check"></i>
+                                    <span>Dedicated Servers</span>
+                                </div>
+                                <div class="feature-item">
+                                    <i class="fa fa-check"></i>
+                                    <span>Cloud Hosting Services</span>
+                                </div>
+                                <div class="feature-item">
+                                    <i class="fa fa-check"></i>
+                                    <span>SSL Certificates</span>
+                                </div>
+                                <div class="feature-item">
+                                    <i class="fa fa-check"></i>
+                                    <span>24/7 Technical Support</span>
+                                </div>
+                            </div>
+                            
+                            <p>With our 99.9% uptime guarantee, your website will always be online and accessible to your customers, supporting your business growth and online presence.</p>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="service-image">
+                                <img src="https://images.unsplash.com/photo-1614064641938-3bbee52942c7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Web Hosting Solutions">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Maintenance -->
+                <div class="service-content" id="maintenance">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <h4>Website Maintenance & Support</h4>
+                            <p>Keep your website running smoothly with our ongoing maintenance and support services. We ensure your site remains secure, up-to-date, and performing at its best with regular monitoring and proactive optimization.</p>
+                            
+                            <div class="features-list">
+                                <div class="feature-item">
+                                    <i class="fa fa-check"></i>
+                                    <span>Regular Software Updates</span>
+                                </div>
+                                <div class="feature-item">
+                                    <i class="fa fa-check"></i>
+                                    <span>Security Monitoring & Protection</span>
+                                </div>
+                                <div class="feature-item">
+                                    <i class="fa fa-check"></i>
+                                    <span>Performance Optimization</span>
+                                </div>
+                                <div class="feature-item">
+                                    <i class="fa fa-check"></i>
+                                    <span>Automated Backup Solutions</span>
+                                </div>
+                                <div class="feature-item">
+                                    <i class="fa fa-check"></i>
+                                    <span>Technical Support & Troubleshooting</span>
+                                </div>
+                                <div class="feature-item">
+                                    <i class="fa fa-check"></i>
+                                    <span>Content Updates & Management</span>
+                                </div>
+                            </div>
+                            
+                            <p>Our comprehensive maintenance plans provide complete peace of mind, allowing you to focus on your business while we handle all technical aspects of your website.</p>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="service-image">
+                                <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1174&q=80" alt="Website Maintenance and Support Services">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+  
+
+  <!-- DK Laptops Section Start - Centered -->
+  <div id="dk-laptops" class="dk-laptops-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="section-heading wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.3s">
+            <h6>Our Partner Services</h6>
+            <h4>DK Laptops & <em>Electronics</em></h4>
+            <div class="line-dec"></div>
+            <p>Professional laptop and electronics repair services with guaranteed quality and quick turnaround times.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- Product Categories -->
+      <div class="product-categories">
+        <div class="row justify-content-center">
+          <div class="col-lg-4 col-md-6">
+            <div class="category-item wow fadeInUp animated-item" data-wow-duration="1s" data-wow-delay="0.2s">
+              <div class="category-icon">
+                <i class="fas fa-box"></i>
+              </div>
+              <h4>New Box Pack</h4>
+              <p>Brand new laptops with original packaging and manufacturer warranty</p>
+              <button class="service-enquiry-btn" onclick="sendDirectWhatsApp('New Box Pack Laptop')">
+                <i class="fab fa-whatsapp"></i> Enquire Now
+              </button>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="category-item wow fadeInUp animated-item" data-wow-duration="1s" data-wow-delay="0.4s">
+              <div class="category-icon">
+                <i class="fas fa-laptop"></i>
+              </div>
+              <h4>IT Commercial Laptops</h4>
+              <p>Reliable laptops for business and corporate use with extended support</p>
+              <button class="service-enquiry-btn" onclick="sendDirectWhatsApp('IT Commercial Laptop')">
+                <i class="fab fa-whatsapp"></i> Enquire Now
+              </button>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="category-item wow fadeInUp animated-item" data-wow-duration="1s" data-wow-delay="0.6s">
+              <div class="category-icon">
+                <i class="fas fa-recycle"></i>
+              </div>
+              <h4>Refurbished Laptops</h4>
+              <p>Quality refurbished laptops with testing and warranty at affordable prices</p>
+              <button class="service-enquiry-btn" onclick="sendDirectWhatsApp('Refurbished Laptop')">
+                <i class="fab fa-whatsapp"></i> Enquire Now
+              </button>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6">
+            <div class="category-item wow fadeInUp animated-item" data-wow-duration="1s" data-wow-delay="0.2s">
+              <div class="category-icon">
+                <i class="fas fa-building"></i>
+              </div>
+              <h4>Corporate & Bulk Deals</h4>
+              <p>Special pricing and support for corporate clients and bulk purchases</p>
+              <button class="service-enquiry-btn" onclick="sendDirectWhatsApp('Corporate/Bulk Laptop Deal')">
+                <i class="fab fa-whatsapp"></i> Enquire Now
+              </button>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6">
+            <div class="category-item wow fadeInUp animated-item" data-wow-duration="1s" data-wow-delay="0.4s">
+              <div class="category-icon">
+                <i class="fas fa-tools"></i>
+              </div>
+              <h4>Repair & Service</h4>
+              <p>Professional repair services for all laptop brands and models</p>
+              <button class="service-enquiry-btn" onclick="sendDirectWhatsApp('Laptop Repair Service')">
+                <i class="fab fa-whatsapp"></i> Enquire Now
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Repair Services -->
+      <div class="row justify-content-center">
+        <div class="col-lg-4 col-md-6">
+          <div class="dk-service-item wow fadeInUp animated-item" data-wow-duration="1s" data-wow-delay="0.2s">
+            <div class="dk-service-icon">
+              <i class="fas fa-laptop"></i>
+            </div>
+            <h4>Laptop Repair</h4>
+            <p>Comprehensive laptop repair services for all major brands and models. We fix hardware and software issues
+              with precision.</p>
+            <ul class="dk-service-features">
+              <li>Screen Replacement</li>
+              <li>Keyboard Repair</li>
+              <li>Motherboard Repair</li>
+              <li>Battery Replacement</li>
+              <li>Charging Port Fix</li>
+            </ul>
+            <button class="service-enquiry-btn" onclick="sendDirectWhatsApp('Laptop Repair Service')">
+              <i class="fab fa-whatsapp"></i> Get Quote
+            </button>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="dk-service-item wow fadeInUp animated-item" data-wow-duration="1s" data-wow-delay="0.4s">
+            <div class="dk-service-icon">
+              <i class="fas fa-desktop"></i>
+            </div>
+            <h4>Desktop Computers</h4>
+            <p>Complete desktop computer repair and maintenance services for home and business use.</p>
+            <ul class="dk-service-features">
+              <li>Hardware Upgrades</li>
+              <li>Power Supply Replacement</li>
+              <li>Motherboard Repair</li>
+              <li>Data Recovery</li>
+              <li>OS Installation</li>
+            </ul>
+            <button class="service-enquiry-btn" onclick="sendDirectWhatsApp('Desktop Repair Service')">
+              <i class="fab fa-whatsapp"></i> Get Quote
+            </button>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="dk-service-item wow fadeInUp animated-item" data-wow-duration="1s" data-wow-delay="0.6s">
+            <div class="dk-service-icon">
+              <i class="fas fa-mobile-alt"></i>
+            </div>
+            <h4>Mobile Devices</h4>
+            <p>Expert repair services for smartphones and tablets from all major manufacturers.</p>
+            <ul class="dk-service-features">
+              <li>Screen Replacement</li>
+              <li>Battery Replacement</li>
+              <li>Charging Port Repair</li>
+              <li>Software Issues</li>
+              <li>Water Damage Repair</li>
+            </ul>
+            <button class="service-enquiry-btn" onclick="sendDirectWhatsApp('Mobile Repair Service')">
+              <i class="fab fa-whatsapp"></i> Get Quote
+            </button>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="dk-service-item wow fadeInUp animated-item" data-wow-duration="1s" data-wow-delay="0.2s">
+            <div class="dk-service-icon">
+              <i class="fas fa-hdd"></i>
+            </div>
+            <h4>Data Recovery</h4>
+            <p>Professional data recovery services to retrieve your important files from damaged storage devices.</p>
+            <ul class="dk-service-features">
+              <li>Hard Drive Recovery</li>
+              <li>SSD Data Recovery</li>
+              <li>USB Drive Recovery</li>
+              <li>Memory Card Recovery</li>
+              <li>Formatted Drive Recovery</li>
+            </ul>
+            <button class="service-enquiry-btn" onclick="sendDirectWhatsApp('Data Recovery Service')">
+              <i class="fab fa-whatsapp"></i> Get Quote
+            </button>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="dk-service-item wow fadeInUp animated-item" data-wow-duration="1s" data-wow-delay="0.4s">
+            <div class="dk-service-icon">
+              <i class="fas fa-wifi"></i>
+            </div>
+            <h4>Networking</h4>
+            <p>Setup and troubleshooting for home and office networking equipment and connectivity issues.</p>
+            <ul class="dk-service-features">
+              <li>Router Configuration</li>
+              <li>WiFi Setup & Optimization</li>
+              <li>Network Troubleshooting</li>
+              <li>Internet Connectivity</li>
+              <li>Network Security</li>
+            </ul>
+            <button class="service-enquiry-btn" onclick="sendDirectWhatsApp('Networking Service')">
+              <i class="fab fa-whatsapp"></i> Get Quote
+            </button>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="dk-service-item wow fadeInUp animated-item" data-wow-duration="1s" data-wow-delay="0.6s">
+            <div class="dk-service-icon">
+              <i class="fas fa-tools"></i>
+            </div>
+            <h4>Preventive Maintenance</h4>
+            <p>Regular maintenance services to keep your devices running smoothly and extend their lifespan.</p>
+            <ul class="dk-service-features">
+              <li>Hardware Cleaning</li>
+              <li>Software Optimization</li>
+              <li>Virus & Malware Removal</li>
+              <li>System Updates</li>
+              <li>Performance Tuning</li>
+            </ul>
+            <button class="service-enquiry-btn" onclick="sendDirectWhatsApp('Preventive Maintenance Service')">
+              <i class="fab fa-whatsapp"></i> Get Quote
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- WhatsApp Enquiry Form -->
+      <!-- <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="whatsapp-form wow fadeIn animated-item" data-wow-duration="1s" data-wow-delay="0.3s">
+            <h4><i class="fab fa-whatsapp"></i> Quick WhatsApp Enquiry</h4>
+            <form id="dk-whatsapp-form">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="dk-name">Your Name</label>
+                    <input type="text" class="form-control" id="dk-name" placeholder="Enter your name" required>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="dk-phone">Phone Number</label>
+                    <input type="tel" class="form-control" id="dk-phone" placeholder="Enter your phone number" required>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="dk-service">Service Required</label>
+                    <select class="form-control" id="dk-service" required>
+                      <option value="">Select Service</option>
+                      <option value="New Box Pack Laptop">New Box Pack Laptop</option>
+                      <option value="IT Commercial Laptop">IT Commercial Laptop</option>
+                      <option value="Refurbished Laptop">Refurbished Laptop</option>
+                      <option value="Corporate/Bulk Deal">Corporate/Bulk Deal</option>
+                      <option value="Laptop Repair">Laptop Repair</option>
+                      <option value="Desktop Repair">Desktop Repair</option>
+                      <option value="Mobile Repair">Mobile Repair</option>
+                      <option value="Data Recovery">Data Recovery</option>
+                      <option value="Networking">Networking</option>
+                      <option value="Preventive Maintenance">Preventive Maintenance</option>
+                      <option value="Other">Other</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="dk-device">Device Type/Brand</label>
+                    <input type="text" class="form-control" id="dk-device"
+                      placeholder="e.g., Dell Laptop, iPhone, etc.">
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="form-group">
+                    <label for="dk-message">Message (Optional)</label>
+                    <textarea class="form-control" id="dk-message" rows="3"
+                      placeholder="Describe your requirement..."></textarea>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <button type="button" class="whatsapp-btn" onclick="sendDKWhatsAppMessage()">
+                    <i class="fab fa-whatsapp"></i> Send via WhatsApp
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div> -->
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="dk-cta-box wow fadeIn animated-item" data-wow-duration="1s" data-wow-delay="0.3s">
+            <h3>Need Professional Electronics Repair?</h3>
+            <p>Contact DK Laptops & Electronics for reliable, affordable, and quick repair services with warranty.</p>
+            <div class="border-first-button">
+              <a href="#contact">Get Service Quote</a>
+            </div>
+            <div class="dk-contact-info">
+              <div class="dk-contact-item">
+                <div class="dk-contact-icon">
+                  <i class="fas fa-phone"></i>
+                </div>
+                <div class="dk-contact-text">
+                  <h5>Call Us</h5>
+                  <p>+91 8104879377</p>
+                </div>
+              </div>
+              <div class="dk-contact-item">
+                <div class="dk-contact-icon">
+                  <i class="fas fa-envelope"></i>
+                </div>
+                <div class="dk-contact-text">
+                  <h5>Email Us</h5>
+                  <p>dklaptops369@gmail.com</p>
+                </div>
+              </div>
+              <div class="dk-contact-item">
+                <div class="dk-contact-icon">
+                  <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <div class="dk-contact-text">
+                  <h5>Visit Us</h5>
+                  <p>India</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- DK Laptops Section End -->
+
+  <!-- Portfolio Section - Centered -->
+  <div id="portfolio" class="our-portfolio section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="section-heading wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.3s">
+            <h6>Our Portfolio</h6>
+            <h4>See Our Recent <em>Projects</em></h4>
+            <div class="line-dec"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid wow fadeIn" data-wow-duration="1s" data-wow-delay="0.7s">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="loop owl-carousel">
+            <div class="item">
+              <a href="https://touristscab.com/">
+                <div class="portfolio-item">
+                  <div class="thumb">
+                    <img src="assets/images/touristcab.png" alt="E-commerce Website Development Project">
+                  </div>
+                  <div class="down-content">
+                    <h4>Tourist Cab </h4>
+                    <span> Taxi and tourist Booking Service</span> 
+                    
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="item">
+              <a href="https://shakticorps.com/">
+                <div class="portfolio-item">
+                  <div class="thumb">
+                    <img src="https://5.imimg.com/data5/SELLER/Default/2024/9/448771969/NU/KH/BV/14785774/kyocera-spare-parts-of-copier-machines-250x250.jpg"
+                      alt="Shakti Corps - Digital Solutions & Business Transformation">
+                  </div>
+                  <div class="down-content">
+                    <h4>Shakti Corps</h4>
+                    <span>Digital Transformation Solutions</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="item">
+              <a href="https://mafsportshub.com/">
+                <div class="portfolio-item">
+                  <div class="thumb">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVo9jKelfk9lG0lCXbENlaSB-KDY4ig3LIpg&s" alt="Restaurant Website Project">
+                  </div>
+                  <div class="down-content">
+            <h4>MAF Sports Hub</h4>
+            <span>Sports Equipment E-Commerce</span>
+        </div>
+                </div>
+              </a>
+            </div>
+            <div class="item">
+              <a href="https://mahabaleshwartours.com/">
+                <div class="portfolio-item">
+                  <div class="thumb">
+                    <img src="assets/images/mahabalshwar img.png" alt="Portfolio Website Project">
+                  </div>
+                  <div class="down-content">
+            <h4>Mahabaleshwar Tours</h4>
+            <span>Travel & Tourism Portal</span>
+        </div>
+                </div>
+              </a>
+            </div>
+            <div class="item">
+              <a href="https://shoreline.attulyabhaarat.com/">
+                <div class="portfolio-item">
+                  <div class="thumb">
+                    <img src="https://media.istockphoto.com/id/146765403/photo/a-luxurious-florida-beach-hotel-during-sunrise.jpg?s=612x612&w=0&k=20&c=pxw9Q78KbvqV6_pS_C-v_m6S_WQjKWLBSdqgRtqMUUg=" alt="Educational Website Project">
+                  </div>
+                  <div class="down-content">
+                    <h4>Shoreline Resorts</h4>
+            <span>Hotel Booking & Tourism</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- <div id="blog" class="blog">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 offset-lg-4  wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.3s">
+          <div class="section-heading">
+            <h6>Recent News</h6>
+            <h4>Check Our Blog <em>Posts</em></h4>
+            <div class="line-dec"></div>
+          </div>
+        </div>
+        <div class="col-lg-6 show-up wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">
+          <div class="blog-post">
+            <div class="thumb">
+              <a href="#"><img src="assets/images/blog-post-01.jpg" alt="SEO Trends for Better Website Rankings"></a>
+            </div>
+            <div class="down-content">
+              <span class="category">SEO Analysis</span>
+              <span class="date">15 March 2023</span>
+              <a href="#">
+                <h4>Top SEO Trends to Watch in 2023 for Better Website Rankings</h4>
+              </a>
+              <p>Stay ahead of the competition by implementing these proven SEO strategies that focus on user
+                experience, content quality, and technical optimization to improve your search engine visibility.</p>
+              <span class="author"><img src="assets/images/author-post.jpg" alt="DataSpark Web Team">By: DataSpark
+                Team</span>
+              <div class="border-first-button"><a href="#">Read More</a></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">
+          <div class="blog-posts">
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="post-item">
+                  <div class="thumb">
+                    <a href="#"><img src="assets/images/blog-post-02.jpg"
+                        alt="Google Ads Campaign Optimization Tips"></a>
+                  </div>
+                  <div class="right-content">
+                    <span class="category">Google Ads</span>
+                    <span class="date">24 February 2023</span>
+                    <a href="#">
+                      <h4>How to Maximize ROI with Google Ads Campaigns</h4>
+                    </a>
+                    <p>Learn effective strategies to optimize your Google Ads campaigns and get the best return on your
+                      advertising investment with targeted approaches.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-12">
+                <div class="post-item">
+                  <div class="thumb">
+                    <a href="#"><img src="assets/images/blog-post-03.jpg" alt="Web Hosting Solutions Guide"></a>
+                  </div>
+                  <div class="right-content">
+                    <span class="category">Hosting</span>
+                    <span class="date">18 February 2023</span>
+                    <a href="#">
+                      <h4>Choosing the Right Web Hosting for Your Business</h4>
+                    </a>
+                    <p>Understand the different types of web hosting solutions and select the best one for your
+                      website's specific needs, performance requirements, and budget.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-12">
+                <div class="post-item last-post-item">
+                  <div class="thumb">
+                    <a href="#"><img src="assets/images/blog-post-04.jpg" alt="Website Performance Impact Analysis"></a>
+                  </div>
+                  <div class="right-content">
+                    <span class="category">Performance</span>
+                    <span class="date">10 February 2023</span>
+                    <a href="#">
+                      <h4>How Website Loading Speed Impacts Your Business Success</h4>
+                    </a>
+                    <p>Explore the direct correlation between page load times, user retention, conversion rates, and
+                      search engine rankings in today's competitive digital landscape.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> -->
+
+  <div id="contact" class="contact-us section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 offset-lg-3">
+          <div class="section-heading wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
+            <h6>Contact Us</h6>
+            <h4>Get In Touch With Us <em>Now</em></h4>
+            <div class="line-dec"></div>
+          </div>
+        </div>
+        <div class="col-lg-12 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.25s">
+          <form id="contact" action="" method="post">
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="contact-dec">
+                  <img src="assets/images/contact-dec.png" alt="Contact DataSpark Web">
+                </div>
+              </div>
+              <!-- <div class="col-lg-5">
+                <div id="map">
+                  <iframe src="https://maps.google.com/maps?q=India&t=&z=13&ie=UTF8&iwloc=&output=embed" width="100%"
+                    height="636px" frameborder="0" style="border:0" allowfullscreen
+                    title="DataSpark Web Location Map"></iframe>
+                </div>
+              </div> -->
+              <div class="contact-cards">
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div class="contact-card">
+              <div class="contact-icon">
+                <i class="fas fa-phone-alt"></i>
+              </div>
+              <h5>Call Us</h5>
+              <p><a href="tel:+919022608002">+91 9022608002</a></p>
+              <p><a href="tel:+918104879377">+91 8104879377</a></p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="contact-card">
+              <div class="contact-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <h5>Email Us</h5>
+              <p><a href="mailto:datasparkweb27@gmail.com">datasparkweb27@gmail.com</a></p>
+              <p><a href="mailto:dklaptops369@gmail.com">dklaptops369@gmail.com</a></p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="contact-card">
+              <div class="contact-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <h5>Visit Us</h5>
+              <p>India</p>
+              <p>Available for remote projects worldwide</p>
+            </div>
+          </div>
+        </div>
+      </div>
+                    <!-- <div class="col-lg-6">
+                      <fieldset>
+                        <input type="text" name="name" id="name" placeholder="Your Name" autocomplete="on" required>
+                      </fieldset>
+                      <fieldset>
+                        <input type="email" name="email" id="email" pattern="[^ @]*@[^ @]*"
+                          placeholder="Your Email Address" required="">
+                      </fieldset>
+                      <fieldset>
+                        <input type="text" name="subject" id="subject" placeholder="Subject" autocomplete="on">
+                      </fieldset>
+                    </div>
+                    <div class="col-lg-6">
+                      <fieldset>
+                        <textarea name="message" type="text" class="form-control" id="message"
+                          placeholder="Your Message" required=""></textarea>
+                      </fieldset>
+                    </div>
+                    <div class="col-lg-12">
+                      <fieldset>
+                        <button type="submit" id="form-submit" class="main-button ">Send Message Now</button>
+                      </fieldset>
+                    </div> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <!-- Website Development WhatsApp Form -->
+<!-- Website Development WhatsApp Form -->
+  <div class="container my-5">
+    <div class="row">
+      <div class="col-lg-8 offset-lg-2">
+        <div class="whatsapp-form">
+          <h4><i class="fab fa-whatsapp"></i> Website Development Enquiry</h4>
+          <form id="web-whatsapp-form">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="web-name">Your Name</label>
+                  <input type="text" class="form-control" id="web-name" placeholder="Enter your name" required>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="web-phone">Phone Number</label>
+                  <input type="tel" class="form-control" id="web-phone" placeholder="Enter your phone number" required>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="web-email">Email Address</label>
+                  <input type="email" class="form-control" id="web-email" placeholder="Enter your email" required>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="web-service">Service Required</label>
+                  <select class="form-control" id="web-service" required>
+                    <option value="">Select Service</option>
+                    <option value="Website Development">Website Development</option>
+                    <option value="SEO Optimization">SEO Optimization</option>
+                    <option value="Google Ads Management">Google Ads Management</option>
+                    <option value="Digital Marketing">Digital Marketing</option>
+                    <option value="Web Hosting">Web Hosting</option>
+                    <option value="Website Maintenance">Website Maintenance</option>
+                    <option value="E-commerce Development">E-commerce Development</option>
+                    <option value="Other">Other</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="form-group">
+                  <label for="web-message">Project Details (Optional)</label>
+                  <textarea class="form-control" id="web-message" rows="3"
+                    placeholder="Describe your project requirements..."></textarea>
+                </div>
+              </div>
+              <div class="col-12">
+                <button type="button" class="whatsapp-btn" onclick="sendWebWhatsAppMessage()">
+                  <i class="fab fa-whatsapp"></i> Send Website Development Enquiry
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+ 
+  <!-- Enhanced Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div class="footer-about">
+              <div class="footer-logo">
+                <img src="assets/images/dataspark.png" alt="DataSpark Web Logo">
+                <span class="footer-logo-text">DataSpark Web</span>
+              </div>
+              <p>DataSpark Web provides end-to-end digital solutions including website development, SEO optimization, Google Ads management, and reliable web hosting services.</p>
+              <div class="social-links">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-6">
+            <h5 class="footer-heading">Quick Links</h5>
+            <ul class="footer-links">
+              <li><a href="#top"><i class="fas fa-chevron-right"></i> Home</a></li>
+              <li><a href="#about"><i class="fas fa-chevron-right"></i> About</a></li>
+              <li><a href="#services"><i class="fas fa-chevron-right"></i> Services</a></li>
+              <li><a href="#dk-laptops"><i class="fas fa-chevron-right"></i> DK Laptops</a></li>
+              <li><a href="#portfolio"><i class="fas fa-chevron-right"></i> Projects</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h5 class="footer-heading">Our Services</h5>
+            <ul class="footer-links">
+              <li><a href="#"><i class="fas fa-chevron-right"></i> Website Development</a></li>
+              <li><a href="#"><i class="fas fa-chevron-right"></i> SEO Optimization</a></li>
+              <li><a href="#"><i class="fas fa-chevron-right"></i> Google Ads</a></li>
+              <li><a href="#"><i class="fas fa-chevron-right"></i> Digital Marketing</a></li>
+              <li><a href="#"><i class="fas fa-chevron-right"></i> Web Hosting</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h5 class="footer-heading">Contact Info</h5>
+            <ul class="footer-contact">
+              <li>
+                <i class="fas fa-phone-alt"></i>
+                <div>
+                  <strong>Phone Numbers</strong>
+                  <a href="tel:+919022608002">+91 9022608002</a><br>
+                  <a href="tel:+918104879377">+91 8104879377</a>
+                </div>
+              </li>
+              <li>
+                <i class="fas fa-envelope"></i>
+                <div>
+                  <strong>Email Addresses</strong>
+                  <a href="mailto:datasparkweb27@gmail.com">datasparkweb27@gmail.com</a><br>
+                  <a href="mailto:dklaptops369@gmail.com">dklaptops369@gmail.com</a>
+                </div>
+              </li>
+              <li>
+                <i class="fas fa-map-marker-alt"></i>
+                <div>
+                  <strong>Location</strong>
+                  India
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>Copyright © 2025 DataSpark Web. All Rights Reserved. Designed by DataSpark Web</p>
+          <p>Specializing in Website Development, SEO Services, Google Ads & Web Hosting Solutions</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/owl-carousel.js"></script>
+  <script src="assets/js/animation.js"></script>
+  <script src="assets/js/imagesloaded.js"></script>
+  <script src="assets/js/custom.js"></script>
+
+  <script>
+    // WhatsApp Integration Functions
+    function openWhatsApp(serviceType) {
+      const phoneNumber = "918104879377";
+      const message = `Hello, I'm interested in ${serviceType}. Please provide more details.`;
+      const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+      window.open(url, '_blank');
+    }
+
+    // Direct WhatsApp function for Get Quote and Enquire Now buttons
+    function sendDirectWhatsApp(serviceType) {
+      const phoneNumber = "918104879377";
+      const message = `Hello, I'm interested in ${serviceType}. Please provide more details and pricing information.`;
+      const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+      window.open(url, '_blank');
+    }
+
+    function sendDKWhatsAppMessage() {
+      const name = document.getElementById('dk-name').value;
+      const phone = document.getElementById('dk-phone').value;
+      const service = document.getElementById('dk-service').value;
+      const device = document.getElementById('dk-device').value;
+      const message = document.getElementById('dk-message').value;
+
+      if (!name || !phone || !service) {
+        alert('Please fill in all required fields');
+        return;
+      }
+
+      const phoneNumber = "918104879377";
+      const fullMessage = `*DK Laptops Enquiry*\n\n*Name:* ${name}\n*Phone:* ${phone}\n*Service:* ${service}\n*Device:* ${device}\n*Message:* ${message || 'Not provided'}`;
+      const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(fullMessage)}`;
+      window.open(url, '_blank');
+
+      // Reset form
+      document.getElementById('dk-whatsapp-form').reset();
+    }
+
+    function sendWebWhatsAppMessage() {
+      const name = document.getElementById('web-name').value;
+      const phone = document.getElementById('web-phone').value;
+      const service = document.getElementById('web-service').value;
+      const budget = document.getElementById('web-budget').value;
+      const message = document.getElementById('web-message').value;
+
+      if (!name || !phone || !service) {
+        alert('Please fill in all required fields');
+        return;
+      }
+
+      const phoneNumber = "919022608002";
+      const fullMessage = `*Website Development Enquiry*\n\n*Name:* ${name}\n*Phone:* ${phone}\n*Service:* ${service}\n*Budget:* ${budget || 'Not specified'}\n*Project Details:* ${message || 'Not provided'}`;
+      const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(fullMessage)}`;
+      window.open(url, '_blank');
+
+      // Reset form
+      document.getElementById('web-whatsapp-form').reset();
+    }
+
+    // Modal functionality
+    $(document).ready(function () {
+      $('#enquiryModal').on('show.bs.modal', function (event) {
+        var button = $(event.relatedTarget);
+        var service = button.data('service');
+        var modal = $(this);
+        modal.find('#modal-service').val(service);
+      });
+    });
+
+    function sendModalWhatsAppMessage() {
+      const name = document.getElementById('modal-name').value;
+      const phone = document.getElementById('modal-phone').value;
+      const service = document.getElementById('modal-service').value;
+      const device = document.getElementById('modal-device').value;
+      const message = document.getElementById('modal-message').value;
+
+      if (!name || !phone) {
+        alert('Please fill in your name and phone number');
+        return;
+      }
+
+      const phoneNumber = "919022608002";
+      const fullMessage = `*DK Laptops Enquiry*\n\n*Name:* ${name}\n*Phone:* ${phone}\n*Service:* ${service}\n*Device:* ${device || 'Not specified'}\n*Message:* ${message || 'Not provided'}`;
+      const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(fullMessage)}`;
+      window.open(url, '_blank');
+
+      // Close modal and reset form
+      $('#enquiryModal').modal('hide');
+      document.getElementById('modal-enquiry-form').reset();
+    }
+
+    
+  </script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const serviceTabs = document.querySelectorAll('.service-tab');
+            const serviceContents = document.querySelectorAll('.service-content');
+            
+            // Function to switch between services
+            function switchService(serviceId) {
+                // Hide all service contents
+                serviceContents.forEach(content => {
+                    content.classList.remove('active');
+                });
+                
+                // Show selected service content
+                const activeContent = document.getElementById(serviceId);
+                activeContent.classList.add('active');
+                
+                // Update active tab
+                serviceTabs.forEach(tab => {
+                    tab.classList.remove('active');
+                    if (tab.getAttribute('data-service') === serviceId) {
+                        tab.classList.add('active');
+                    }
+                });
+            }
+            
+            // Add click event to service tabs
+            serviceTabs.forEach(tab => {
+                tab.addEventListener('click', function() {
+                    const serviceId = this.getAttribute('data-service');
+                    switchService(serviceId);
+                });
+            });
+        });
+    </script>
+
+</body>
+
+</html>
